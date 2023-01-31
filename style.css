@@ -1,0 +1,102 @@
+/*  body */
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+  font-style: Helvetica;
+}
+
+/* sfondo */
+
+.container{
+  width: 57%;
+  margin:30px auto 75px auto;
+  border-radius: 2%;
+  padding: 50px 50px 100px 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+
+/* intestazione */
+}
+header{
+  text-align: center;
+  color: #00dd00;
+}
+/*Grandezza logo*/
+#logo{
+  width: 200px;
+  height: 90px;
+}
+/*titolo pincipale*/
+h1 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.40em;
+  margin-block-end: 0.40em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+/*titoli secondari*/
+#title2{
+  margin: 5px;
+}
+/* lista di ozpioni */
+.option{
+  background-color: #00dd00;
+  padding: 10px;
+  text-align: center;
+}
+
+/* scooter */
+.monopattino{
+  margin-top: 20px;
+}
+.inlane{
+  display:flex;
+}
+
+/* carica monopattini */
+.dist{
+  display: inline-block;
+  margin: 0px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+#caricaGino22{
+  margin-right: 65%;
+  background-color: hsl(35deg 68% 60%);
+  border: 1px;
+  border-color: hsl(35deg 68% 60%);
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 5;
+  height: 25px;
+}
+
+.dist{
+  margin-bottom: 5px;
+}
+
+#caricaMike24{
+  margin-right: 43%;
+  background-color: #00dd00;
+  border: 1px;
+  border-color: red;
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 5;
+  height: 25px;
+}
+
+#caricaFede154{
+  margin-right: 85%;
+  background-color: hsl(0deg 49% 50%);
+  border: 1px;
+  border-color: hsl(0deg 49% 50%);
+  border-radius: 3px;
+  margin-top: 0;
+  margin-bottom: 5;
+  height: 25px;
+}
